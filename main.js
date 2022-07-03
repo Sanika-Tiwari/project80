@@ -3,6 +3,7 @@ var names_of_people = [];
 function submit()
 {
     var GuestName = document.getElementById("name1").value;
+	names_of_people.push(GuestName);
 	// use the push function as - names_of_people.push(GuestName);
 	console.log(GuestName);    
     console.log(names_of_people);
